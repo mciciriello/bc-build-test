@@ -1,5 +1,5 @@
 deploy:
   provider: script
-  script: test.sh
+  script: bash test.sh
   on:
-    branch: master
+    all_branches: true
