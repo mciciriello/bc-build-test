@@ -1,6 +1,6 @@
 language: bash
 deploy:
   provider: script
-  script: test.sh
+  script: bash test.sh
   on:
     all_branches: true
